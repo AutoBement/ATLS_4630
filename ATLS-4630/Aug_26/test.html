@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DOM Interaction Example</title>
+  <style>
+    #colorBox {
+      width: 200px;
+      height: 200px;
+      background-color: lightblue;
+      margin: 20px 0;
+    }
+
+    #changeButton {
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>JavaScript DOM Example</h1>
+
+  <button id="changeButton">Click Me!</button>
+  <div id="colorBox"></div>
+  <p id="message">Hover over the box to see what happens.</p>
+
+  <script>
+    // 1. Event listener for button click
+    document.getElementById("changeButton").addEventListener("click", function() {
+      // Change the background color of the box (CSS property)
+      document.getElementById("colorBox").style.backgroundColor = "lightgreen";
+
+      // Change the text content of the paragraph (non-CSS property)
+      document.getElementById("message").textContent = "You clicked the button!";
+    });
+
+    // 2. Event listener for mouseover on the box
+    document.getElementById("colorBox").addEventListener("mouseover", function() {
+      document.getElementById("message").textContent = "You're hovering over the box!";
+    });
+  </script>
+
+</body>
+</html>
