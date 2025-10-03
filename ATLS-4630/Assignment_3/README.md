@@ -1,12 +1,14 @@
-# React + Vite
+Step 1: 
+Created on paper
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Step 2:
+Created a simple static version with completed css. Right now, nothing runs
 
-Currently, two official plugins are available:
+Step 3: 
+The things that will change over time are the list of to do items, if a to do list item has been completed or not, and the current input
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Step 4: 
+The to do list state should live in App, while the input field state should live in a new file that will be called adding underscore toDo
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Step 5: 
+Following the "Thinking in React" steps helped me to break down everything and made the programming a lot easer. It was nice to see what everything would look like from the start and then make sure everything works instead of doing it the other way around like I normally would. I will deffenetly try and apply similar steps to other kinds of programming as well. 
