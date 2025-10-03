@@ -1,0 +1,19 @@
+body {
+    font-family: 'Didot';
+    font-size: 20px;
+    background-color: rgba(132, 198, 248, 0.624);
+
+}
+
+button {
+  padding: 5px 5px;
+  font-size: 15px;
+  border-radius: 25px;
+  font-family: 'Lucida Grande';
+  background-color: rgb(198, 167, 226);
+  border: 2px solid rgb(36, 13, 127);
+}
+
+button:hover {
+  background-color: rgb(121, 113, 217);
+}
