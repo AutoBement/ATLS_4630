@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body {
+  font-family: 'Didot';
+  font-size: 20px;
+  background-color: rgba(132, 198, 248, 0.624);
+  
+}
+
+button {
+  padding: 5px 5px;
+  font-size: 15px;
+  border-radius: 25px;
+  font-family: 'Lucida Grande';
+  background-color: rgb(209, 176, 238);
+  border: 2px solid rgb(36, 13, 127);
+}
+
+button:hover {
+  background-color: rgb(113, 132, 217);
+}
