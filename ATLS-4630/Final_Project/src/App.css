@@ -1,0 +1,117 @@
+body{
+  margin: 0;
+  padding: 0;
+  color: #222;
+  background: linear-gradient(
+    135deg,
+    #eedbf8 0%,
+    #e1eefb 100%
+  );
+  /* For smooth scrolling */
+  background-attachment: fixed; 
+}
+
+
+#root {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Header */
+.header {
+  background: #d7befd;
+  padding: 25px 20px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.07);
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.4rem;
+  color: #4a2c82;
+  letter-spacing: 1px;
+}
+
+/* General */
+h1, h2, h3 {
+  font-weight: 600;
+  color: #333;
+}
+
+h1 { font-size: 2.4rem; }
+h2 { font-size: 2rem; margin-bottom: 1rem; }
+h3 { font-size: 1.4rem; }
+
+/* Normal text */
+p, label, textarea, input {
+  font-size: 1.1rem;
+}
+
+/* Navbar */
+.navbar {
+  background: #a7d0f4; 
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.navbar a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #336699;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #224466;
+  text-decoration: underline;
+}
+
+/* Buttons */
+button {
+  background: #4a90e2;          
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background: #0f3055;
+}
+
+/* Text Area */
+textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 8px;
+}
+
+/* History */
+.entry-card {
+  margin-top: 15px;
+  padding: 15px;
+  background: white;
+  border-radius: 10px;
+  color: #333;
+  border: 1px solid #e1e1e1;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.06);
+  text-align: left;            
+}
+
+/* MoodSelector */
+.mood-emoji {
+  font-size: 40px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+}
